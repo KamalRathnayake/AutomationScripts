@@ -3,7 +3,7 @@ cd SBAPI.Domain
 dotnet new classlib
 dotnet add package Newtonsoft.Json
 rm Class1.cs
-mkdir Entity
+mkdir ValueObjects
 cd ..
 
 
@@ -11,6 +11,7 @@ mkdir SBAPI.Application
 cd SBAPI.Application
 dotnet new classlib
 mkdir UseCases
+mkdir Repository
 
 dotnet add package Newtonsoft.Json
 dotnet add package AutoMapper
